@@ -9,7 +9,7 @@ namespace GameProject
     {
         static void Main(string[] args)
         {
-            Player player = new Player {Id =1, FirstName ="Nursebil", LastName="Canbolat", PlayerNickName="abcd",NationalityId="11785250986", DateOfBirth= "2001.6.5" };
+            Player player = new Player {Id =1, FirstName ="Nursebil", LastName="Canbolat", PlayerNickName="abcd",NationalityId="11111111111", DateOfBirth= "2001.6.5" };
 
             IPlayerCheckService playerCheckService = new PlayerCheckManager();
             bool result = playerCheckService.CheckIfRealPerson(player);
